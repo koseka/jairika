@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+members = [
+  "jairika",
+  "bindings/python",
+  "bindings/javascript",
+  "bindings/java",
+  "bindings/go",
+  "bindings/php",
+]

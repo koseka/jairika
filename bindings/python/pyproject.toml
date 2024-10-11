@@ -1,0 +1,13 @@
+[build-system]
+requires = ["maturin>=0.10,<0.11"]
+build-backend = "maturin"
+
+[project]
+name = "jairika"
+version = "0.1.0"
+authors = [{ name = "Koseka", email = "hello@koseka.org" }]
+license = "Apache-2.0"
+description = "The Python bindings for Jairika, a blazing fast cross-language machine learning framework."
+
+[project.urls]
+repository = "https://github.com/koseka/jairika/"

@@ -1,0 +1,41 @@
+{
+  "cSpell.words": [
+    "convolutional",
+    "gomoku",
+    "indx",
+    "indxdb",
+    "jairika",
+    "koseka",
+    "mish",
+    "softmax",
+    "softplus",
+    "softsign",
+    "surrealkv",
+    "tikv"
+  ],
+  "rust-analyzer.linkedProjects": [
+    "./jairika/Cargo.toml",
+    "./bindings/python/Cargo.toml",
+    "./bindings/javascript/Cargo.toml",
+    "./bindings/java/Cargo.toml",
+    "./bindings/go/Cargo.toml",
+    "./bindings/php/Cargo.toml"
+  ],
+  "rust-analyzer.check.targets": [
+    "x86_64-apple-darwin",
+    "aarch64-apple-darwin",
+    "x86_64-pc-windows-gnu",
+    "x86_64-pc-windows-msvc",
+    "aarch64-pc-windows-msvc",
+    "x86_64-unknown-linux-gnu",
+    "aarch64-unknown-linux-gnu",
+    "i686-unknown-linux-gnu",
+    "x86_64-apple-ios",
+    "aarch64-apple-ios",
+    "aarch64-apple-ios-sim",
+    "aarch64-linux-android",
+    "armv7-linux-androideabi",
+    "i686-linux-android",
+    "x86_64-linux-android"
+  ]
+}

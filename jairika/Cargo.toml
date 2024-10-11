@@ -1,0 +1,35 @@
+[package]
+name = "jairika"
+version = "0.1.0"
+authors = ["koseka <hello@koseka.org>"]
+homepage = "https://koseka.org/jairika/"
+license = "Apache-2.0"
+description = "A blazing fast cross-language cross-platform machine learning framework."
+keywords = [
+  "ai",
+  "cross-language",
+  "cross-platform",
+  "framework",
+  "machine-learning",
+]
+categories = ["command-line-utilities", "science"]
+repository = "https://github.com/koseka/jairika/"
+readme = "README.md"
+edition = "2021"
+include = ["../assets/banners/rust.png", "README.md"]
+exclude = [".*"]
+publish = false
+
+[lib]
+name = "jairika"
+path = "src/lib.rs"
+
+[[bin]]
+name = "jairika"
+path = "src/main.rs"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+surrealkv = "0.3.7"
+surrealdb = { version = "2.0.2", features = ["kv-surrealkv"] }

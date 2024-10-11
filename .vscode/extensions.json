@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "trunk.io",
+    "rust-lang.rust-analyzer"
+  ],
+  "unwantedRecommendations": []
+}

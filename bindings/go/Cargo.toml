@@ -1,0 +1,24 @@
+[package]
+name = "jairika_go"
+version = "0.1.0"
+authors = ["koseka <hello@koseka.org>"]
+homepage = "https://koseka.org/jairika/"
+license = "Apache-2.0"
+description = "The Go bindings for Jairika, a blazing fast cross-language cross-platform machine learning framework."
+keywords = [
+  "ai",
+  "cross-language",
+  "cross-platform",
+  "framework",
+  "machine-learning",
+]
+categories = ["science"]
+repository = "https://github.com/koseka/jairika/"
+readme = "README.md"
+edition = "2021"
+include = ["../../assets/banners/go.png", "README.md"]
+exclude = [".*"]
+publish = false
+
+[dependencies]
+jairika = { path = "../../jairika" }
